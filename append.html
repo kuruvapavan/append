@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#one").load("hello.txt");
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="one"><h2>Good Morning</h2></div>
+
+<button>GetContent</button>
+
+</body>
+</html>
